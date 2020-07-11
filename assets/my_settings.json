@@ -1,0 +1,32 @@
+{
+    "glassit.alpha": 220,
+    "markdown-preview-enhanced.pandocArguments": "--filter=c:\\\\Program Files (x86)\\\\Pandoc\\\\pandoc-crossref, --filter=c:\\\\Program Files (x86)\\\\Pandoc\\\\pandoc-citeproc,--csl=C:\\\\Users\\\\theki\\\\Documents\\\\我的坚果云\\\\BibtexAndCSL\\\\apa.csl,--bibliography=C:\\\\Users\\\\theki\\\\Documents\\\\我的坚果云\\\\BibtexAndCSL\\\\my.bib",
+    "markdown-preview-enhanced.usePandocParser": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontSize": 18,
+    "vscodeGoogleTranslate.preferredLanguage": "en",
+    "google.input.tools.language": "en",
+    "cSpell.userWords": [
+        "calclulate",
+        "weibo",
+        "weibos"
+    ],
+    "editor.wordWrap": "on",
+    "markdown.preview.fontSize": 18,
+    "window.menuBarVisibility": "default",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+
+    "pandoc-format.enable": true,
+    "pandoc-format.command": "C:\\Program Files (x86)\\Pandoc\\pandoc",
+    "pandoc.docxOptString": "--filter=pandoc-crossref  --filter=pandoc-citeproc  --csl=\"C:\\\\Users\\\\theki\\\\Documents\\\\我的坚果云\\\\BibtexAndCSL\\\\apa.csl\"  --bibliography=\"C:\\\\Users\\\\theki\\\\Documents\\\\我的坚果云\\\\BibtexAndCSL\\\\my.bib\"",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "git.enableSmartCommit": true,
+    "workbench.activityBar.visible": true,
+
+
+
+
+
+}
