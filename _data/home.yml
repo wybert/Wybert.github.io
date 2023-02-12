@@ -21,10 +21,10 @@ project_entries:
     desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> KNIME nodes for processing, analyzing and visualizing Geospatial data.
     # highlight: MEW
 
-  # - title: Project 4
-  #   url: overview-post
-  #   desc: This project uses highlight markup, configured in _data/home.yml
-  #   highlight: WIP
+  - title: Waterlogging detecting 
+    url: http://wybert.github.io/showcase/
+    desc: This project uses highlight markup, configured in _data/home.yml
+    highlight: WIP
 
   # - title: Project 5
   #   url: overview-post
@@ -65,6 +65,10 @@ footer_entries:
 
   - title: feed
     url: feed.xml
+
+  - title: ssp
+    url: https://luojiassp.github.io/
+
 
 misc_entries:
   - title: this is an example vertical list
