@@ -6,7 +6,7 @@ navbar_entries:
     url: blog
 
   - title: website
-    url: https://www.abhinav.co
+    url: https://wybert.github.io
 
 project_entries:
   - title: Project 1
@@ -58,10 +58,10 @@ footer_entries:
     url: https://www.abhinav.co
 
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: https://twitter.com/fxk123
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/wybert
 
   - title: feed
     url: feed.xml
