@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: 俄罗斯7天莫斯科圣彼得堡之行旅行游记
 # mathjax: true
 tags: 游记

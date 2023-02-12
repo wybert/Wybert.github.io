@@ -2,25 +2,24 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: blog
+  - title: researches
     url: blog
 
   - title: website
     url: https://wybert.github.io
 
 project_entries:
-  - title: Georouting
-    url: overview-post
-    desc: <img src="https://w.wallhaven.cc/full/7p/wallhaven-7ppxve.jpg" alt="Italian Trulli"> This a des
+
 
   - title: Georouting
     url: https://wybert.github.io/georouting/
-    desc: Geo routing for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
+    desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> Geo routing package for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
     highlight: NEW
 
-  # - title: Project 3
-  #   url: overview-post
-  #   desc: You can control visibility from _config.yml file
+  - title: Geospatial Analytics Extension for KNIME
+    url: https://github.com/spatial-data-lab/knime-geospatial-extension
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> KNIME nodes for processing, analyzing and visualizing Geospatial data.
+    highlight: MEW
 
   # - title: Project 4
   #   url: overview-post
@@ -37,10 +36,10 @@ project_entries:
   #   desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+
+  - title: Inferring air quality
+    url: air-study
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> Inferring air quality based social media data.
 
   # - title: Cookie
   #   url: https://github.com/abhinavs/cookie
