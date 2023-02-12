@@ -69,6 +69,12 @@ footer_entries:
   - title: ssp
     url: https://luojiassp.github.io/
 
+  - title: my photo blog
+    url: https://wybert.github.io/photographer
+
+  - title: my songs
+    url: https://wybert.github.io/mymusicalworld
+
 
 misc_entries:
   - title: this is an example vertical list
