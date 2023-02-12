@@ -26,6 +26,10 @@ project_entries:
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Urban waterlogging detecting based photos and texts from social media data.
     # highlight: WIP
 
+  - title: Harvard housing map
+    url: http://wybert.github.io/showcase/
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
+
   # - title: Project 5
   #   url: overview-post
   #   desc: Moonwalk also has horizontal list (used in header and footer)
