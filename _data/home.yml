@@ -9,13 +9,14 @@ navbar_entries:
     url: https://wybert.github.io
 
 project_entries:
-  - title: My test
+  - title: Georouting
     url: overview-post
     desc: <img src="https://w.wallhaven.cc/full/7p/wallhaven-7ppxve.jpg" alt="Italian Trulli"> This a des
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Georouting
+    url: https://wybert.github.io/georouting/
+    desc: Geo routing for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
+    highlight: NEW
 
   # - title: Project 3
   #   url: overview-post
