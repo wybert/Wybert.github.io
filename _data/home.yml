@@ -19,7 +19,7 @@ project_entries:
   - title: Geospatial Analytics Extension for KNIME
     url: https://github.com/spatial-data-lab/knime-geospatial-extension
     desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> KNIME nodes for processing, analyzing and visualizing Geospatial data.
-    highlight: MEW
+    # highlight: MEW
 
   # - title: Project 4
   #   url: overview-post
