@@ -2,8 +2,6 @@ title: Xiaokang Fu
 author: Xiaokang Fu
 url: https://wybert.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  ![](){:height="25%" width="20%"}
-  <img src="https://wx2.sinaimg.cn/mw690/006TZTh6ly1g5zka2j49oj30t615o1kx.jpg" alt="Italian Trulli">
   I am a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. I am visiting fellow at the CGA of Harvard University. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
 
 permalink: /:slug
@@ -31,7 +29,7 @@ theme_config:
   show_projects: true # show projects as cards, add in _data/home.yml
   show_blog: true # show blog posts added in _posts
   show_old_projects: true # show old projects as cards, add in _data/home.yml
-  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
+  show_misc_list: true # show generic vertical list for misc details, add _data/home.yml
   show_reading_time: true # show number of words and reading time in the blog posts
   show_tags: true # show tags in a blog posts
   # options for "home" page
