@@ -2,7 +2,7 @@
 layout: post
 title: About
 ---
-![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="25%" width="20%"}
+![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="70%" width="70%"}
 
 I am a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. I am visiting fellow at the CGA of Harvard University. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
 
