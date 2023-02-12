@@ -23,8 +23,8 @@ project_entries:
 
   - title: Waterlogging detecting 
     url: http://wybert.github.io/showcase/
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Urban waterlogging detecting based photos and texts from social media data.
+    # highlight: WIP
 
   # - title: Project 5
   #   url: overview-post
