@@ -27,7 +27,7 @@ project_entries:
     # highlight: WIP
 
   - title: Harvard housing map
-    url: http://wybert.github.io/showcase/
+    url: https://wybert.github.io/my_app/harvard_housing_top10_cheap.html
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
 
   # - title: Project 5
