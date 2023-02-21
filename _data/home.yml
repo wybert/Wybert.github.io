@@ -58,25 +58,25 @@ old_project_entries:
   #   desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: researchgate
+  - title: Researchgate
     url: https://www.researchgate.net/profile/Xiaokang-Fu
 
-  - title: twitter
+  - title: Twitter
     url: https://twitter.com/fxk123
 
-  - title: github
+  - title: Github
     url: https://github.com/wybert
 
-  - title: feed
+  - title: Feed
     url: feed.xml
 
-  - title: ssp
+  - title: Spatial Search People (SSP)
     url: https://luojiassp.github.io/
 
-  - title: my photo blog
+  - title: My photo blog
     url: https://wybert.github.io/photographer
 
-  - title: my songs
+  - title: My songs
     url: https://wybert.github.io/mymusicalworld
 
 
