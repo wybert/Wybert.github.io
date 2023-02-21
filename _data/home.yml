@@ -5,35 +5,45 @@ navbar_entries:
   - title: Researches
     url: researches
 
-  - title: Home
-    url: https://wybert.github.io
+  - title: Publications
+    url: publications
+
+  - title: Services
+    url: services
+
+  - title: Teaching
+    url: teaching
+   
+  - title: Contact
+    url: contact
 
 project_entries:
-
 
   - title: Georouting
     url: https://wybert.github.io/georouting/
     desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> Geo routing package for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
-    highlight: NEW
+    highlight: Open Source Tool
 
   - title: Geospatial Analytics Extension for KNIME
     url: https://github.com/spatial-data-lab/knime-geospatial-extension
     desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> KNIME nodes for processing, analyzing and visualizing Geospatial data.
-    # highlight: MEW
+    highlight: Open Source Tool
 
   - title: Waterlogging detecting 
     url: http://wybert.github.io/showcase/
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Urban waterlogging detecting based photos and texts from social media data.
-    # highlight: WIP
+    highlight: Dashboard
 
   - title: Harvard housing map
     url: https://wybert.github.io/my_app/harvard_housing_top10_cheap.html
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
+    highlight: Web Map
 
-  # - title: Project 5
-  #   url: overview-post
-  #   desc: Moonwalk also has horizontal list (used in header and footer)
-  #   highlight: WIP
+# maybe those should included in a subpage
+  - title: More...
+    url: researches
+    desc: read more my researches by clicking here...
+    # highlight: WIP
 
   # - title: Project 6
   #   url: overview-post
@@ -81,7 +91,7 @@ footer_entries:
 
 
 misc_entries:
-  - title: this is an example vertical list
+  - title: Wang, Y., Fu, X., Jiang, W., Wang, T., Tsou, M.-H., & Ye, X. (2017). Inferring urban air quality based on social media. Computers, Environment and Urban Systems, 66(Supplement C), 110–116. https://doi.org/10.1016/j.compenvurbsys.2017.07.002
     url: false
 
   - title: you can show or hide using a boolean flag in _config.yml

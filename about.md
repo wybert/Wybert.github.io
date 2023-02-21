@@ -4,7 +4,14 @@ title: About
 ---
 ![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="70%" width="70%"}
 
-I am a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. I am visiting fellow at the CGA of Harvard University. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
+
+
+Xiaokang Fu (付小康). I am a postdoctoral researcher in [State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing](http://www.lmars.whu.edu.cn/en/), Wuhan University. I am visiting fellow at the [CGA](https://gis.harvard.edu/) of Harvard University. I am also an executor of <a href="https://luojiassp.github.io/">Spatial Search People</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
+
+<div style="text-align: left;"> 
+<a href="https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ"><i class="ai ai-google-scholar ai-2x"></i></a>
+  <i class="ai ai-orcid ai-2x"></i>  <a href="https://www.researchgate.net/profile/Xiaokang-Fu"><i class="ai ai-researchgate ai-2x"></i></a>  <a href="https://github.com/wybert"><i class="fab fa-github"></i> GitHub</a>
+</div>
 
 # Education
 
@@ -15,26 +22,7 @@ Inner Mongolia University of Science and Technology, Baotou, China
 
 # Publications
 
-<!-- 填写正在进行的论文两篇 ，可以把论文稍微放后面一点？-->
-
-1. **Fu, X.**. A Hyper-network Framework to Analyzing Dynamic Situation Awareness. **(Working on the draft)**
-2. **Fu, X.**. Waterlogging Severity Assessment Using Multi-Mode Deep Learning Based on Social Media. **(Working on the draft)**
-3. **Fu, X.**. A Near Real-time Risk Assessment Method of Waterlogging Points Based on LSTM Network. **(Experiment in progress)**
-4. Wang, Y., **Fu, X.**, Jiang, W., Wang, T., Tsou, M.-H., & Ye, X. (2017). Inferring urban air quality based on social media. Computers, Environment and Urban Systems, 66(Supplement C), 110–116. https://doi.org/10.1016/j.compenvurbsys.2017.07.002(**SSCI JCR top1**)
-5. Jiang, W., Wang, Y., Tsou, M.-H., & **Fu, X.** (2015). Using Social Media to Detect Outdoor Air Pollution and Monitor Air Quality Index (AQI): A Geo-Targeted Spatiotemporal Analysis Framework with Sina Weibo (Chinese Twitter). PLOS ONE, 10(10), e0141185. https://doi.org/10.1371/journal.pone.0141185(**SCI **)
-6. 相恒茂, **付小康**, 高浠舰, 杨浚, & 王艳东. (2017). 基于社交媒体的城市污染信息探测. 测绘与空间地理信息, 40(08), 47-49+53.(**中文核心**)
-7. 王艳东, 荆彤, 姜伟, 王腾, & **付小康**. (2016). 利用社交媒体数据模拟城市空气质量趋势面. 武汉大学学报·信息科学版, 42(1), 14–20.(**EI**)
-
-8. 王艳东, **付小康**, & 李萌萌. (2018). 一种基于共词网络的社交媒体数据主题挖掘方法. 武汉大学学报(信息科学版), 43(12), 2287–2294.(**EI**)
-9. 王艳东,李萌萌,**付小康**,邵世维,刘辉. (2019). 基于社交媒体共词网络的灾情发展态势探测方法. 武汉大学学报(信息科学版)(Accepted)(**EI**)
-10. 刘淑涵, 王艳东, & **付小康**. (2019). 利用卷积神经网络提取微博中的暴雨灾害信息. 地球信息科学学报, 21(07), 1009–1017.(**中文核心**)
-11. 袁文艳, & **付小康**. (2015). 基于Digital Map的校园三维景观建模. 北京测绘, (03), 107–111.(**中文核心**)
-12. 王腾, 王艳东, 赵晓明, **付小康**, & 蒋波涛. (2018). 顾及道路网约束的商业设施空间点模式分析. 武汉大学学报(信息科学版), 43(11), 1746–1752.(**EI**)
-13. Teng Wang, Yandong Wang, Xiaoming Zhao, Xiaokang Fu. Spatial distribution pattern of the customer count and satisfaction of commercial facilities based on social network review data in Beijing, China. Computers, Environment and Urban Systems. 71 (2018) 88–97 (**SSCI JCR一区**)
-14. Hu, K., Luo, Q., Qi, K., Yang, S., Mao, J., **Fu, X.**, … Zhu, Q. (2019). Understanding the topic evolution of scientific literatures like an evolving city: Using Google Word2Vec model and spatial autocorrelation analysis. Information Processing & Management, 56(4), 1185–1203. https://doi.org/10.1016/j.ipm.2019.02.014(**SCI 中科院一区**)
-15. Zhang, L., Chen, X., Lu, J., **Fu, X.**, Zhang, Y., Liang, D., & Xu, Q. (2019). Precipitation projections using a spatiotemporally distributed method: A case study in the Poyang Lake watershed based on the MRI-CGCM3. Hydrology and Earth System Sciences, 23(3), 1649–1666. https://doi.org/10.5194/hess-23-1649-2019(**SCI 中科院一区**)
-16. Zhang, L., Lu, J., Chen, X., Liang, D., **Fu, X.**, Sauvage, S., & Sanchez Perez, J.-M. (2017). Stream flow simulation and verification in ungauged zones by coupling hydrological and hydrodynamic models: A case study of the Poyang Lake ungauged zone. Hydrology and Earth System Sciences, 21(11), 5847–5861. https://doi.org/10.5194/hess-21-5847-2017(**SCI 中科院一区**)
-
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
 
 
 

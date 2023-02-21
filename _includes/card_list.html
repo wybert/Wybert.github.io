@@ -5,7 +5,7 @@
       <a href="{{ item.url }}">
         <span class="header">
           {{ item.title }}
-
+          <br>
           {% if item.highlight %}
             <mark>{{ item.highlight }}</mark>
           {% endif %}
@@ -19,6 +19,11 @@
           {{ item.desc }}
         </p>
         {% endif %}
+
+        <!-- {% if item.highlight %}
+        <mark>{{ item.highlight }}</mark>
+        {% endif %} -->
+
       </a>
     </li>
 
