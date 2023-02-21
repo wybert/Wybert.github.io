@@ -1,11 +1,11 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
-  - title: researches
-    url: blog
+  - title: Researches
+    url: researches
 
-  - title: website
+  - title: Home
     url: https://wybert.github.io
 
 project_entries:

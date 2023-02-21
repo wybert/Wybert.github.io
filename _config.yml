@@ -2,7 +2,7 @@ title: Xiaokang Fu
 author: Xiaokang Fu
 url: https://wybert.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  I am a postdoctoral researcher in <a href="http://www.lmars.whu.edu.cn/en/">State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University</a>. I am visiting fellow at the <a href="https://gis.harvard.edu/">CGA of Harvard University</a>. I am also an executor of <a href="https://luojiassp.github.io/">Spatial Search People</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
+  Xiaokang Fu (付小康). I am a postdoctoral researcher in <a href="http://www.lmars.whu.edu.cn/en/">State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University</a>. I am visiting fellow at the <a href="https://gis.harvard.edu/">CGA of Harvard University</a>. I am also an executor of <a href="https://luojiassp.github.io/">Spatial Search People</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
 
 permalink: /:slug
 
@@ -40,7 +40,7 @@ theme_config:
     title_old_projects: Old Projects
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: "pt_bedac9d691dc8c5d422db08a9c09fefa" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
 highlighter: rouge
 
