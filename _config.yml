@@ -20,7 +20,7 @@ description: > # description of the site (multiple lines allowed)
 permalink: /:slug
 
 # FIXME: add my logo
-favicon: "./my_log.jpg" # relative path to site's favicon
+favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
     username: fxk123 # update or delete this
