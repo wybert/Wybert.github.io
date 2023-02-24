@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+
+<h1>Researches</h1>
+
+<h2>Open Source Tools</h2>
+
+{% include card_list.html collection=site.data.research.project_entries %}
+
+<h2>Social Media Data Mining</h2>
+
+{% include card_list.html collection=site.data.research.old_project_entries %}
