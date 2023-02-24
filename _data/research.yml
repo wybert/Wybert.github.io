@@ -1,7 +1,6 @@
 project_entries:
-
   - title: Georouting
-    url: https://wybert.github.io/georouting/
+    url: georouting-test
     desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> Geo routing package for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
     highlight: Open Source Tool
 
@@ -31,7 +30,6 @@ project_entries:
   #   desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-
   - title: Inferring air quality
     url: air-study
     desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> Inferring air quality based social media data.
