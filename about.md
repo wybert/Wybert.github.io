@@ -26,9 +26,14 @@ Inner Mongolia University of Science and Technology, Baotou, China
 ## Publications
 
 <!-- put it inside a dive -->
-<div style="width: 100%;">
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
-</div>
+<!-- <div style="width: 100%;"> -->
+<!-- <iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1" width="100%" height="500"></iframe> -->
+
+<iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-mypublications%2Fwybert" width="100%" height="500" frameborder="0"></iframe>
+
+
+<!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script> -->
+<!-- </div> -->
 
 
 
