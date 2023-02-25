@@ -5,11 +5,11 @@ title: About
 
 <!-- ![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="70%" width="70%"} -->
 
-<div style="text-align: center;"> 
+<!-- <div style="text-align: center;"> 
 <h3>Xiaokang Fu (付小康)</h3>
     <a href="https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ"><i class="ai ai-google-scholar ai-2x"></i></a>
       <a href="https://orcid.org/my-orcid?orcid=0000-0002-3396-6720"><i class="ai ai-orcid ai-2x"></i></a>  <a href="https://www.researchgate.net/profile/Xiaokang-Fu"><i class="ai ai-researchgate ai-2x"></i></a>  <a href="https://twitter.com/fxk123"><i class="fa fa-twitter ai-2x"></i></a>  <a href="https://github.com/wybert"><i class="fa fa-github ai-2x"></i></a>  <a href="https://www.linkedin.com/in/xiaokang-fu-258b14a2/"><i class="fa fa-linkedin ai-2x" aria-hidden="true"></i></a>
-</div>
+</div> -->
 
 I am a postdoctoral researcher in [State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing](http://www.lmars.whu.edu.cn/en/), Wuhan University. I am visiting fellow at the [CGA](https://gis.harvard.edu/) of Harvard University. I am also an executor of <a href="https://luojiassp.github.io/">Spatial Search People</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, Emergency Response.
 
