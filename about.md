@@ -3,7 +3,7 @@ layout: post
 title: About
 ---
 
-![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="70%" width="70%"}
+<!-- ![](https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/sea.png){:height="70%" width="70%"} -->
 
 <div style="text-align: center;"> 
 <h3>Xiaokang Fu (付小康)</h3>
