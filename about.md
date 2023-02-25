@@ -23,9 +23,9 @@ I am a postdoctoral researcher in [State Key Laboratory of Information Engineeri
 - 2013  B.S. Surveying and Mapping Engineering Technology. 
 Inner Mongolia University of Science and Technology, Baotou, China
 
-<!-- ## Publications
+## Publications
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script> -->
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
 
 
 
