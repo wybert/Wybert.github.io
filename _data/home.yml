@@ -1,4 +1,6 @@
 navbar_entries:
+  - title: <strong>Xiaokang Fu</strong>
+    url: /
   - title: About
     url: about
 
@@ -86,11 +88,11 @@ footer_entries:
   - title: Spatial Search People (SSP)
     url: https://luojiassp.github.io/
 
-  - title: My photo blog
+  - title: My blog
     url: https://wybert.github.io/photographer
 
-  - title: My songs
-    url: https://wybert.github.io/mymusicalworld
+  - title: Soundcloud
+    url: https://soundcloud.com/xiaokang-fu
 
 
 misc_entries:
