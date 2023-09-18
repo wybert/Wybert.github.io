@@ -15,7 +15,8 @@ title: Services
 
 - Aug. 2023 - present
 
-I am a Committee Member at the University Consortium for Geographic Information Science (UCGIS), a non-profit that fosters GIScience communities for research, education, and policy initiatives in higher education and allied institutions. Serving as a central hub for the US academic GIS community, we also have global partnerships. The Communication Committee, where I serve, facilitates consistent communication between the UCGIS Board, Council, affiliated members, and external entities, utilizing platforms like our website, webinars, and social media.
+I am a [Communications Committee Member](https://www.ucgis.org/committees#Communications) at the [University Consortium for Geographic Information Science](https://www.ucgis.org/) (UCGIS), a non-profit that fosters GIScience communities for research, education, and policy initiatives in higher education and allied institutions. Serving as a central hub for the US academic GIS community, we also have global partnerships. The Communication Committee, where I serve, facilitates consistent communication between the UCGIS Board, Council, affiliated members, and external entities, utilizing platforms like our website, webinars, and social media.
+
 
 
 
