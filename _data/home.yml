@@ -16,8 +16,11 @@ navbar_entries:
   - title: Teaching
     url: teaching
 
-  - title: News
-    url: news
+  # - title: News
+  #   url: news
+  
+  - title: Artwork
+    url: https://wybert.github.io/artwork
    
   - title: Contact
     url: contact
@@ -73,14 +76,14 @@ old_project_entries:
   #   desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: Researchgate
-    url: https://www.researchgate.net/profile/Xiaokang-Fu
+  # - title: Researchgate
+  #   url: https://www.researchgate.net/profile/Xiaokang-Fu
 
-  - title: Twitter
-    url: https://twitter.com/fxk123
+  # - title: Twitter
+  #   url: https://twitter.com/fxk123
 
-  - title: Github
-    url: https://github.com/wybert
+  # - title: Github
+  #   url: https://github.com/wybert
 
   - title: Feed
     url: feed.xml
@@ -88,11 +91,11 @@ footer_entries:
   - title: Spatial Search People (SSP)
     url: https://luojiassp.github.io/
 
-  - title: My blog
-    url: https://wybert.github.io/photographer
+  - title: My Artwork
+    url: https://wybert.github.io/artwork
 
-  - title: Soundcloud
-    url: https://soundcloud.com/xiaokang-fu
+  # - title: Soundcloud
+  #   url: https://soundcloud.com/xiaokang-fu
 
 
 misc_entries:
