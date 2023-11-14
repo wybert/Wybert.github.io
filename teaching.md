@@ -9,6 +9,6 @@ I served as a lecturer at the [Summer Workshop on Spatiotemporal Data Science at
 
 ## Spatiotemporal Data Analysis With Codeless Visual Programming
 
-I serve as a presenter at [ABCD](https://www.abcd.harvard.edu/)-GIS Seminar named [Spatiotemporal Data Analysis With Codeless Visual Programming](https://gis.harvard.edu/event/spatiotemporal-data-analysis-codeless-visual-programming) to introduce the KNIME Analytics Platform and its Geospatial Analytics extension developed by the Spatial Data Lab (SDL) team at Harvard's Center for Geographic Analysis (CGA). More than 40 people attended this seminar in person and online.
+I serve as a presenter at [ABCD](https://www.abcd.harvard.edu/)-GIS Seminar named [Spatiotemporal Data Analysis With Codeless Visual Programming](https://gis.harvard.edu/event/spatiotemporal-data-analysis-codeless-visual-programming) to introduce the KNIME Analytics Platform and its Geospatial Analytics extension developed by the Spatial Data Lab (SDL) team at Harvard's Center for Geographic Analysis (CGA). More than 40 people attended this seminar in person and online. Find the [training materials here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/I0AWAM).
 
 
