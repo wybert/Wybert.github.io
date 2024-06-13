@@ -36,7 +36,7 @@ project_entries:
     desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> An open-source workflow tool for replicable and reproducible geospatial analysis.
     highlight: Open Source Tool
 
-  - title: Methods for drive time estimation on geospatial big data
+  - title: Drive Time Estimation on Geospatial Big Data
     url: https://gis.harvard.edu/event/comparative-study-methods-drive-time-estimation-big-geospatial-data-case-study-us
     desc: <img src="https://gis.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/gis/files/study_area_and_data.png?m=1681998023&itok=G_77WKBK" alt="drive time"> This paper compares six methods (Google Maps API, Bing Maps API, Esri Routing Web Service, ArcGIS Pro Desktop, OSMnx, OSRM) for drive time estimation in the USA.
     highlight: Research
