@@ -18,26 +18,30 @@ navbar_entries:
 
   # - title: News
   #   url: news
-  
+
   - title: Artwork
     url: https://wybert.github.io/artwork
-   
+
   - title: Contact
     url: contact
 
 project_entries:
-
   - title: Georouting
     url: https://wybert.github.io/georouting/
-    desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> Geo routing package for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
+    desc: <img src="https://github.com/wybert/georouting/blob/main/docs/img/Screenshot1.png?raw=true" alt="georouting"> A Python package designed to calculate the shortest drive time, compatible with various routing tools such as OSRM, Google Maps, Bing Maps, and more, all through a unified API.
     highlight: Open Source Tool
 
   - title: Geospatial Analytics Extension for KNIME
     url: https://github.com/spatial-data-lab/knime-geospatial-extension
-    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> KNIME nodes for processing, analyzing and visualizing Geospatial data.
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> An open-source workflow tool for replicable and reproducible geospatial analysis.
     highlight: Open Source Tool
 
-  - title: Waterlogging detecting 
+  - title: Methods for drive time estimation on geospatial big data
+    url: https://gis.harvard.edu/event/comparative-study-methods-drive-time-estimation-big-geospatial-data-case-study-us
+    desc: <img src="https://gis.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/gis/files/study_area_and_data.png?m=1681998023&itok=G_77WKBK" alt="drive time"> This paper compares six methods (Google Maps API, Bing Maps API, Esri Routing Web Service, ArcGIS Pro Desktop, OSMnx, OSRM) for drive time estimation in the USA.
+    highlight: Research
+
+  - title: Waterlogging detecting
     url: http://wybert.github.io/showcase/
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Urban waterlogging detecting based photos and texts from social media data.
     highlight: Dashboard
@@ -47,7 +51,7 @@ project_entries:
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
     highlight: Web Map
 
-# maybe those should included in a subpage
+  # maybe those should included in a subpage
   - title: More...
     url: researches
     desc: read more my researches by clicking here...
@@ -58,7 +62,6 @@ project_entries:
   #   desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-
   - title: Inferring air quality
     url: air-study
     desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> Inferring air quality based social media data.
@@ -97,7 +100,6 @@ footer_entries:
   # - title: Soundcloud
   #   url: https://soundcloud.com/xiaokang-fu
 
-
 misc_entries:
   - title: Wang, Y., Fu, X., Jiang, W., Wang, T., Tsou, M.-H., & Ye, X. (2017). Inferring urban air quality based on social media. Computers, Environment and Urban Systems, 66(Supplement C), 110–116. https://doi.org/10.1016/j.compenvurbsys.2017.07.002
     url: false
@@ -129,5 +131,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
