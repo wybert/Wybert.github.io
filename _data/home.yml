@@ -51,6 +51,10 @@ project_entries:
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
     highlight: Web Map
 
+  - title: 2SFCA APP
+    url: 2sfca-app
+    desc: An online app for two-step floating catchment area (2SFCA) method.
+    highlight: Web APP
   # maybe those should included in a subpage
   - title: More...
     url: researches
