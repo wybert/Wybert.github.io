@@ -20,7 +20,7 @@ navbar_entries:
   #   url: news
 
   - title: Artwork
-    url: artwork
+    url: https://wybert.github.io/artwork
 
   - title: Contact
     url: contact
