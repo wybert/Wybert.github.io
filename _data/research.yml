@@ -1,4 +1,30 @@
+
 project_entries:
+  - title:  Reproducible and Replicable GIScience
+    url: Reproducible-and-Replicable-Geospatial-Science
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png"> Study and Development of Reproducible and Replicable GIScience Methods and Tools.
+  
+  - title: Environmental and Disaster Management
+    url: environmental-and-disaster-management
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Air pollution and urban flood study.
+
+  - title: Public Health and Human Well-being
+    url: public-health-and-human-well-being
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="waterlogging"> Covid-19 and public health study.
+
+  - title: Tools and Softwares
+    url: tools-and-softwares
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/Screenshot-RR.png" alt="georouting"> Open Source Tools and Software for big geospatial data analysis, replicable and reproducible tools.
+
+  # - title: Project 6
+  #   url: overview-post
+  #   desc: It also has a scalable vertical list (in case you need it)
+
+old_project_entries:
+  - title: Inferring air quality
+    url: air-study
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> Inferring air quality based social media data.
+  
   - title: Georouting
     url: georouting-test
     desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> Geo routing package for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API.
@@ -18,22 +44,6 @@ project_entries:
     url: https://wybert.github.io/my_app/harvard_housing_top10_cheap.html
     desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
     highlight: Web Map
-
-# maybe those should included in a subpage
-  - title: More...
-    url: researches
-    desc: read more my researches by clicking here...
-    # highlight: WIP
-
-  # - title: Project 6
-  #   url: overview-post
-  #   desc: It also has a scalable vertical list (in case you need it)
-
-old_project_entries:
-  - title: Inferring air quality
-    url: air-study
-    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> Inferring air quality based social media data.
-
   # - title: Cookie
   #   url: https://github.com/abhinavs/cookie
   #   desc: An open source landing website with supporting pages and integrated blog

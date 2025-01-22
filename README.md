@@ -9,16 +9,21 @@
 brew install rbenv
 rbenv install --list
 rbenv install 3.4.1
+rbenv global 3.4.1
+rbenv init
 ```
 
-Tested on Ruby 2.6.10p210
+Tested on Ruby 2.6.10p210 and Ruby 3.2.2.
+
+jekyll-scholar can't work with GitHub pages directly and can't reuse my bib file in Overleaf because it can't support latex syntax.
 
 ## Quick Installation
 1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
 2. `cd moonwalk`
-3. Run `bundle config set --local path 'vendor/bundle'` and then `bundle install`
+3. Run `bundle config set --local path 'vendor/bundle'` and then `bundle install` or `arch -arm64 bundle install`
 4. [Optional] Sign up on Soopr, and add your `publish_token` in `_config.yml` file.
 
+notice that the depandencies are specified in `moonwalk.gemspec` file.
 If you are installing Moonwalk on Windows, please note that you might have to use Ruby 3.0.x instead of Ruby 3.1.x - you can see Windows specific installation instructions [here](https://github.com/abhinavs/moonwalk/blob/master/moonwalk_on_windows.md)
 
 ## Starting Server

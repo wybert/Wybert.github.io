@@ -12,12 +12,19 @@ description: > # description of the site (multiple lines allowed)
       <a href="https://github.com/wybert"><i class="fa fa-github ai-2x"></i></a>
       <a href="https://www.linkedin.com/in/xiaokang-fu-258b14a2/"><i class="fa fa-linkedin ai-2x" aria-hidden="true"></i></a>
   </div>
-  I am a postdoctoral researcher at the <a href="https://gis.harvard.edu/">CGA of Harvard University</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, and Emergency Response. <a href="https://wybert.github.io/about">Read more...</a>
+  I am a postdoctoral researcher at the <a href="https://gis.harvard.edu/">CGA of Harvard University</a>. My research is dedicated to advancing sustainable development and human well-being through innovative technologies and interdisciplinary collaboration. My primary interests including geographic information science (GIS), geospatial artificial intelligence (GeoAI), environmental management, emergency response, public health, urban computing, social media data mining, social behavior analysis, and the development of reproducible and scalable computational geospatialtools. I am musican in my free time.
 
 permalink: /:slug
 
 # FIXME: add my logo
 favicon: "./logo.png" # relative path to site's favicon
+
+
+# # added the publication list
+# scholar:
+#   style: apa
+#   source: _bibliography
+#   bibliography: publications.bib
 
 twitter:
   username: fxk123 # update or delete this
@@ -40,8 +47,8 @@ theme_config:
   show_blog: false # show blog posts added in _posts
   show_old_projects: false # show old projects as cards, add in _data/home.yml
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
+  show_reading_time: false # show number of words and reading time in the blog posts
+  show_tags: false # show tags in a blog posts
   # options for "home" page
   home:
     title_projects: Featured Researches
@@ -60,3 +67,4 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
+  # - jekyll-scholar

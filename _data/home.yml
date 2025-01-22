@@ -28,44 +28,21 @@ navbar_entries:
     url: contact
 
 project_entries:
-  - title: Georouting
-    url: https://wybert.github.io/georouting/
-    desc: <img src="https://github.com/wybert/georouting/blob/main/docs/img/Screenshot1.png?raw=true" alt="georouting"> A Python package designed to calculate the shortest drive time, compatible with various routing tools such as OSRM, Google Maps, Bing Maps, and more, all through a unified API.
-    highlight: Open Source Tool
+  - title:  Reproducible and Replicable GIScience
+    url: Reproducible-and-Replicable-Geospatial-Science
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png"> Study and Development of Reproducible and Replicable GIScience Methods and Tools.
+  
+  - title: Environmental and Disaster Management
+    url: environmental-and-disaster-management
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> Air pollution and urban flood study.
 
-  - title: Geospatial Analytics Extension for KNIME
-    url: https://github.com/spatial-data-lab/knime-geospatial-extension
-    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> An open-source workflow tool for replicable and reproducible geospatial analysis.
-    highlight: Open Source Tool
+  - title: Public Health and Human Well-being
+    url: public-health-and-human-well-being
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="waterlogging"> Covid-19 and public health study.
 
-  - title: Drive Time Estimation on Geospatial Big Data
-    url: https://gis.harvard.edu/event/comparative-study-methods-drive-time-estimation-big-geospatial-data-case-study-us
-    desc: <img src="https://gis.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/gis/files/study_area_and_data.png?m=1681998023&itok=G_77WKBK" alt="drive time"> This paper compares six methods (Google Maps API, Bing Maps API, Esri Routing Web Service, ArcGIS Pro Desktop, OSMnx, OSRM) for drive time estimation in the USA.
-    highlight: Research
-
-  - title: RapidRoute
-    url: https://rapidrouteapp.onrender.com/routing_app
-    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/Screenshot-RR.png" alt="rr"> An online app computes drive time and distance for geospatial big data.
-    highlight: Online App
-
-  - title: Harvard housing map
-    url: https://wybert.github.io/my_app/harvard_housing_top10_cheap.html
-    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> Top 10 cheapest and nearest (by CGA) Harvard housing properties Map.
-    highlight: Web Map
-
-  - title: 2SFCA APP
-    url: 2sfca-app
-    desc: An online app for two-step floating catchment area (2SFCA) method.
-    highlight: Web APP
-  # maybe those should included in a subpage
-  - title: More...
-    url: researches
-    desc: read more my researches by clicking here...
-    # highlight: WIP
-
-  # - title: Project 6
-  #   url: overview-post
-  #   desc: It also has a scalable vertical list (in case you need it)
+  - title: Tools and Softwares
+    url: tools-and-softwares
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/Screenshot-RR.png" alt="georouting"> Open Source Tools and Software for big geospatial data analysis, replicable and reproducible tools.
 
 old_project_entries:
   - title: Inferring air quality
@@ -97,11 +74,17 @@ footer_entries:
   - title: Feed
     url: feed.xml
 
-  - title: Spatial Search People (SSP)
+  - title: SSP
     url: https://luojiassp.github.io/
 
-  - title: My Artwork
-    url: https://wybert.github.io/artwork
+  # - title: Artwork
+  #   url: https://wybert.github.io/artwork
+  
+  - title: Soundcloud
+    url: https://soundcloud.com/xiaokang-fu
+
+  - title: NetEaseCloud Music (网易云音乐) 
+    url: https://music.163.com/#/artist?id=56855554
 
   # - title: Soundcloud
   #   url: https://soundcloud.com/xiaokang-fu
