@@ -10,13 +10,6 @@ description: > # description of the site (multiple lines allowed)
   </div>
   I am a postdoctoral researcher at the <a href="https://gis.harvard.edu/">CGA of Harvard University</a>. I am also an executor of <a href="https://luojiassp.github.io/">Spatial Search People</a>. My research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, and Emergency Response. <a href="https://wybert.github.io/about">Read more...</a>
 
-# <b>Education</b>
-#   <ul>
-#     <li>2020   Ph.D. in Cartography. Wuhan University, Wuhan, China</li>
-#     <li>2015   M.A. in Cartography. Wuhan University, Wuhan, China</li>
-#     <li>2013  B.S. Surveying and Mapping Engineering Technology. 
-#       Inner Mongolia University of Science and Technology, Baotou, China</li>
-#   </ul>
 
 permalink: /:slug
 

@@ -16,6 +16,8 @@ navbar_entries:
   - title: Teaching
     url: teaching
 
+  - title CV
+    url:https://wybert.github.io/XiaokangFu-CV.pdf
   # - title: News
   #   url: news
 
