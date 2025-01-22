@@ -1,8 +1,8 @@
 navbar_entries:
   - title: <strong>Xiaokang Fu</strong>
     url: /
-  - title: About
-    url: about
+  # - title: About
+  #   url: about
 
   - title: Researches
     url: researches
@@ -16,13 +16,13 @@ navbar_entries:
   - title: Teaching
     url: teaching
 
-  - title CV
-    url:https://wybert.github.io/XiaokangFu-CV.pdf
+  - title: CV
+    url: https://wybert.github.io/XiaokangFu-CV.pdf
   # - title: News
   #   url: news
 
-  - title: Artwork
-    url: https://wybert.github.io/artwork
+  # - title: Artwork
+  #   url: https://wybert.github.io/artwork
 
   - title: Contact
     url: contact

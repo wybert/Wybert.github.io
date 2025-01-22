@@ -1,52 +1,36 @@
 ## moonwalk - a fast and minimalistic blog theme with clean dark mode
 
-<img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/moonwalk.png" />
 
-<h3 align="center">
-  <img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/logo.png" width="24"/>
-<a href="https://abhinavs.github.io/moonwalk/">TRY THE DEMO</a>
-</h3>
+## Prerequisites
 
-## Features
-* Light & dark mode with theme switcher
-* Vertical list, horizontal list, card list
-* Landing page with navbar, footer, portfolio
-* Fast (very minimal CSS) - 100/100 on performance, accessibility, best practices and SEO, please see [Lighthouse Report](https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png) for more details
-* Responsive and mobile friendly
-* SEO optimized (uses [Jekyll Soopr SEO Tag](https://github.com/jekyll/jekyll-soopr-seo-tag))
-* RSS feed (uses [Jekyll Feed](https://github.com/jekyll/jekyll-feed))
-* Easy to extend
-* Fully compatible with [GitHub Pages](https://pages.github.com/) (see [GitHub Pages installation](#github-pages-installation))
-* Auto-generated share images for social media (using [Soopr](https://www.soopr.co))
-* Share & like buttons (using [Soopr](https://www.soopr.co))
+- Install latest version of Ruby
 
+```bash
+brew install rbenv
+rbenv install --list
+rbenv install 3.4.1
+```
 
-#### Lighthouse
-
-<img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png" />
+Tested on Ruby 2.6.10p210
 
 ## Quick Installation
 1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
 2. `cd moonwalk`
-3. `bin/bootstrap`
+3. Run `bundle config set --local path 'vendor/bundle'` and then `bundle install`
 4. [Optional] Sign up on Soopr, and add your `publish_token` in `_config.yml` file.
 
 If you are installing Moonwalk on Windows, please note that you might have to use Ruby 3.0.x instead of Ruby 3.1.x - you can see Windows specific installation instructions [here](https://github.com/abhinavs/moonwalk/blob/master/moonwalk_on_windows.md)
 
 ## Starting Server
-`bin/start` - development server will start at http://127.0.0.1:4000
 
-## Deployment
-Moonwalk can be easily deployed on all the cloud providers (AWS etc.), and on static website hosting services like Netlify & Vercel. You can also use this button to do one click deploy
-<br />
-<br />
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abhinavs/moonwalk)
+Run  `bundle exec jekyll serve --livereload`, development server will start at http://127.0.0.1:4000, don't use `--incremental` flag.
 
-If you want to use Moonwalk as a gem or use Github Pages, please see [this page](https://github.com/abhinavs/moonwalk/blob/master/github_pages.md)
 
 ## Customizing
 
 You can edit `_config.yml` file to customize your blog. You can change things such as the name of the blog, the author, the appearance of the theme (light, dark or auto), how dates are formatted, etc. Customizable fields should be straightforward to understand. Still, `_config.yml` contains some comments to help you understand what each field does.
+
+Some times change the content of the `_config.yml`, the webpages may not be updated. You can try removing the `_site` folder and restart the server. Please remove `--incremental` flag when starting the server.
 
 For further customization (e.g. layout, CSS) see the [official Jekyll's documentation](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) on customizing gem-based themes.
 
@@ -85,7 +69,7 @@ The `home.yml` file accepts the following fields:
   - home - for landing page
   you can change your `index.md` file to use either home or blog layout.
 
-2. It is extremely easy to tweak the color scheme. 
+2. It is extremely easy to tweak the color scheme.
   - for light mode, customize these css variables
 ```css
 html {
@@ -132,7 +116,7 @@ When your theme is released, only the files in `_layouts`, `_includes`, `_sass` 
 To add a custom directory to your theme-gem, please edit the regexp in `moonwalk.gemspec` accordingly.
 
 ## Acknowledgement
-This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by  [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css. 
+This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by  [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css.
 
 ## License
 
@@ -151,4 +135,4 @@ If you like Moonwalk, do check out my other projects
 
 ✨⚡You can read more about me on my [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
 
-✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)                
+✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)

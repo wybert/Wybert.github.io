@@ -3,74 +3,90 @@ layout: default
 ---
 
 <header>
-  {% if site.theme_config.show_navbar == true %}
-    {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+    {% if site.theme_config.show_navbar == true %} {% include
+    horizontal_list.html collection=site.data.home.navbar_entries %}
     <div class="dashed"></div>
-  {% endif %}
+    {% endif %}
 </header>
 
 <!-- add google search meta description -->
 
-<meta name="description" content="Xiaokang Fu's personal website. Xiaokang Fu is a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. He is visiting fellow at the CGA of Harvard University. He is also an executor of Spatial Search People. His research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, and Emergency Response.">
-
+<meta
+    name="description"
+    content="Xiaokang Fu's personal website. Xiaokang Fu is a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. He is visiting fellow at the CGA of Harvard University. He is also an executor of Spatial Search People. His research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, and Emergency Response."
+/>
 
 <!-- <h1>{{ site.title }}</h1> -->
 {% if site.theme_config.show_description == true %}
-  <p>{{ site.description }}</p>
-{% endif %}
-
-{{ content }}
-
-{% if site.theme_config.show_projects == true %}
-  <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
+<p>{{ site.description }}</p>
+{% endif %} {{ content }} {% if site.theme_config.show_projects == true %}
+<h2>{{ site.theme_config.home.title_projects }}</h2>
+{% include card_list.html collection=site.data.home.project_entries %} {% endif
+%}
 
 <h2>Publications</h2>
 
 <!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script> -->
-<div style="background-color: #f2f0ec;">
-<iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FWMCPRNWQ%2Fitems%3Fkey%3D2we23lDB9bc8qOnSiv0rA6d0%26format%3Dbibtex%26limit%3D100" width="100%" height="500" frameborder="0"></iframe>
+<div style="background-color: #f2f0ec">
+    <iframe
+        src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FWMCPRNWQ%2Fitems%3Fkey%3D2we23lDB9bc8qOnSiv0rA6d0%26format%3Dbibtex%26limit%3D100"
+        width="100%"
+        height="500"
+        frameborder="0"
+    ></iframe>
 </div>
 
 <p><a href="https://wybert.github.io/publications">Read more...</a></p>
 
 {% if site.theme_config.show_misc_list == true %}
-  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
-  {% include vertical_list.html collection=site.data.home.misc_entries %}
-{% endif %}
-
-{% if site.theme_config.show_blog == true %}
-  <h2>{{ site.theme_config.home.title_blog }}</h2>
-  {% include post_list.html %}
-{% endif %}
-
-{% if site.theme_config.show_old_projects == true %}
-  <h2>{{ site.theme_config.home.title_old_projects }}</h2>
-  {% include card_list.html collection=site.data.home.old_project_entries %}
-{% endif %}
+<h2>{{ site.theme_config.home.title_misc_list }}</h2>
+{% include vertical_list.html collection=site.data.home.misc_entries %} {% endif
+%} {% if site.theme_config.show_blog == true %}
+<h2>{{ site.theme_config.home.title_blog }}</h2>
+{% include post_list.html %} {% endif %} {% if
+site.theme_config.show_old_projects == true %}
+<h2>{{ site.theme_config.home.title_old_projects }}</h2>
+{% include card_list.html collection=site.data.home.old_project_entries %} {%
+endif %}
 
 <!-- show services -->
 <h2>Services</h2>
 <!-- show my services as ceo of ssp -->
-<p>As CEO of <a href="https://luojiassp.github.io/">Spatial Search People (SSP)</a>. 
-  SSP is a non-profit scientific community of scholars from around the world. Our current work mainly focuses on extracting and mining the sentiment of Chinese Weibo data. We are also interested in the application of spatial search and spatial data mining in social media.
+<p>
+    As CEO of
+    <a href="https://luojiassp.github.io/">Spatial Search People (SSP)</a>. SSP
+    is a non-profit scientific community of scholars from around the world. Our
+    current work mainly focuses on extracting and mining the sentiment of
+    Chinese Weibo data. We are also interested in the application of spatial
+    search and spatial data mining in social media.
 </p>
-<br>
+<br />
 <a href="https://wybert.github.io/services/">Read more...</a>
 <!-- add contact -->
 <h2>Contact</h2>
-<div style="text-align: center;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.2563033930454!2d-71.10658798412584!3d42.36561097918678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a0d7c2d55b%3A0x2326d420b7119eb0!2sCambridge%2C%20MA%2C%20USA!5e0!3m2!1sen!2sus!4v1645481638724!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div style="text-align: center">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.2563033930454!2d-71.10658798412584!3d42.36561097918678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a0d7c2d55b%3A0x2326d420b7119eb0!2sCambridge%2C%20MA%2C%20USA!5e0!3m2!1sen!2sus!4v1645481638724!5m2!1sen!2sus"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+    ></iframe>
 </div>
-<div style="padding-top: 10px; text-align: center; font-weight: bold;"><a href="https://goo.gl/maps/Ur2N3ywmVzcBgJc27">1737 Cambridge Street, Cambridge MA</a>
-  <br>
-  <a href="mailto:fxk123@gmail.com"><i class="fa fa-envelope"></i> fxk123@gmail.com</a>
+<div style="padding-top: 10px; text-align: center; font-weight: bold">
+    <a href="https://goo.gl/maps/Ur2N3ywmVzcBgJc27"
+        >1737 Cambridge Street, Cambridge MA</a
+    >
+    <br />
+    <a href="mailto:fxk123@gmail.com"
+        ><i class="fa fa-envelope"></i> fxk123@gmail.com</a
+    >
 </div>
 
 {% if site.theme_config.show_footer == true %}
-  <footer>
+<footer>
     <div class="dashed"></div>
     {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
+</footer>
 {% endif %}
