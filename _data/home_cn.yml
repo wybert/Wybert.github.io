@@ -1,0 +1,98 @@
+navbar_entries:
+  - title: <strong>付小康</strong>
+    url: /cn/
+  # - title: About
+  #   url: about
+
+  - title: 研究
+    url: /cn/researches
+
+  - title: 发表
+    url: /cn/publications
+
+  - title: 服务
+    url: /cn/services
+
+  - title: 教学
+    url: /cn/teaching
+
+  - title: 简历
+    url: https://wybert.github.io/Clean_Academic_CV/XiaokangFu-CV-cn.pdf
+  # - title: News
+  #   url: news
+
+  # - title: Artwork
+  #   url: https://wybert.github.io/artwork
+
+  - title: 联系
+    url: /cn/contact
+
+  - title: English
+    url: /
+
+project_entries:
+  - title:  可再现与可复制的地理信息科学
+    url: Reproducible-and-Replicable-Geospatial-Science
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png"> 研究和开发可再现与可复制的地理信息科学方法与工具。
+  
+  - title: 环境与灾害管理
+    url: environmental-and-disaster-management
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> 空气污染与城市洪水研究。
+
+  - title: 公共卫生与人类福祉
+    url: public-health-and-human-well-being
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="waterlogging"> Covid-19与公共卫生研究。
+
+  - title: 工具与软件
+    url: tools-and-softwares
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/Screenshot-RR.png" alt="georouting"> 用于大规模地理空间数据分析的开源工具与软件，以及可复制与可再现工具。
+
+old_project_entries:
+  - title: 推测空气质量
+    url: air-study
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> 基于社交媒体数据推测空气质量。
+
+footer_entries:
+  - title: 订阅
+    url: feed.xml
+
+  - title: 空间搜搜人
+    url: https://luojiassp.github.io/
+
+  - title: Soundcloud
+    url: https://soundcloud.com/xiaokang-fu
+
+  - title: 网易云音乐 
+    url: https://music.163.com/#/artist?id=56855554
+
+misc_entries:
+  - title: Wang, Y., Fu, X., Jiang, W., Wang, T., Tsou, M.-H., & Ye, X. (2017). Inferring urban air quality based on social media. Computers, Environment and Urban Systems, 66(Supplement C), 110–116. https://doi.org/10.1016/j.compenvurbsys.2017.07.002
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false

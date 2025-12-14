@@ -1,23 +1,24 @@
 ---
 layout: default
+lang: zh
 ---
 
 <!-- add google search meta description -->
 
 <meta
     name="description"
-    content="Xiaokang Fu's personal website. Xiaokang Fu is a postdoctoral researcher in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University. He is visiting fellow at the CGA of Harvard University. He is also an executor of Spatial Search People. His research interests include Geostatistics and Geoinformatics (GIS), Urban Computing, Social Media Data Mining, and Emergency Response."
+    content="付小康的个人网站。付小康是武汉大学测绘遥感信息工程国家重点实验室的博士后研究员，也是哈佛大学地理分析中心（CGA）的访问学者。他也是空间搜搜人（Spatial Search People）的执行人。他的研究兴趣包括地统计学与地理信息科学（GIS）、城市计算、社交媒体数据挖掘和应急响应。"
 />
 
 <!-- <h1>{{ site.title }}</h1> -->
 {% if site.theme_config.show_description == true %}
-{% include profile_header.html %}
+{% include profile_header_cn.html %}
 {% endif %} {{ content }} {% if site.theme_config.show_projects == true %}
-<h2>{{ site.theme_config.home.title_projects }}</h2>
-{% include card_list.html collection=site.data.home.project_entries %} {% endif
+<h2>精选研究</h2>
+{% include card_list.html collection=site.data.home_cn.project_entries %} {% endif
 %}
 
-<h2>Publications</h2>
+<h2>发表记录</h2>
 
 <!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3636796%2Fcollections%2FNI6VDPMI%2Fitems%3Fkey%3DctxFP0mdGrv98wIzsoxlydCp%26format%3Dbibtex%26limit%3D100&jsonp=1"></script> -->
 <div style="background-color: #f2f0ec">
@@ -29,20 +30,20 @@ layout: default
     ></iframe>
 </div>
 
-<p><a href="https://wybert.github.io/publications">Read more...</a></p>
+<p><a href="https://wybert.github.io/cn/publications">阅读更多...</a></p>
 
 {% if site.theme_config.show_misc_list == true %}
 <h2>{{ site.theme_config.home.title_misc_list }}</h2>
-{% include vertical_list.html collection=site.data.home.misc_entries %} {% endif
+{% include vertical_list.html collection=site.data.home_cn.misc_entries %} {% endif
 %} {% if site.theme_config.show_blog == true %}
 <h2>{{ site.theme_config.home.title_blog }}</h2>
 {% include post_list.html %} {% endif %} {% if
 site.theme_config.show_old_projects == true %}
 <h2>{{ site.theme_config.home.title_old_projects }}</h2>
-{% include card_list.html collection=site.data.home.old_project_entries %} {%
+{% include card_list.html collection=site.data.home_cn.old_project_entries %} {%
 endif %}
 
-<h2>GitHub Stats</h2>
+<h2>GitHub 统计</h2>
 <picture style="display: block; text-align: left;">
     <source
         srcset="https://github-readme-stats.vercel.app/api?username=wybert&show_icons=true&theme=dark"
@@ -57,20 +58,24 @@ endif %}
 <br clear="all">
 
 <!-- show services -->
-<h2>Services</h2>
+<h2>服务</h2>
 <!-- show my services as ceo of ssp -->
 <p>
-    As CEO of
-    <a href="https://luojiassp.github.io/">Spatial Search People (SSP)</a>. SSP
-    is a non-profit scientific community of scholars from around the world. Our
-    current work mainly focuses on extracting and mining the sentiment of
-    Chinese Weibo data. We are also interested in the application of spatial
-    search and spatial data mining in social media.
+    作为<a href="https://luojiassp.github.io/">空间搜搜人 (SSP)</a> 的执行人。SSP 是一个由来自世界各地的学者组成的非营利科学社区。我们目前的工作主要集中在中文微博数据的情感提取和挖掘。我们也对空间搜索和空间数据挖掘在社交媒体中的应用感兴趣。
 </p>
 <br />
-<a href="https://wybert.github.io/services/">Read more...</a>
+<a href="https://wybert.github.io/cn/services/">阅读更多...</a>
+<!-- show services -->
+<h2>服务</h2>
+<!-- show my services as ceo of ssp -->
+<p>
+    作为<a href="https://luojiassp.github.io/">空间搜搜人 (SSP)</a> 的执行人。SSP 是一个由来自世界各地的学者组成的非营利科学社区。我们目前的工作主要集中在中文微博数据的情感提取和挖掘。我们也对空间搜索和空间数据挖掘在社交媒体中的应用感兴趣。
+</p>
+<br />
+<a href="https://wybert.github.io/cn/services/">阅读更多...</a>
+
 <!-- add contact -->
-<h2>Contact</h2>
+<h2>联系</h2>
 <div style="text-align: center">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.2563033930454!2d-71.10658798412584!3d42.36561097918678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a0d7c2d55b%3A0x2326d420b7119eb0!2sCambridge%2C%20MA%2C%20USA!5e0!3m2!1sen!2sus!4v1645481638724!5m2!1sen!2sus"
@@ -94,6 +99,6 @@ endif %}
 {% if site.theme_config.show_footer == true %}
 <footer>
     <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+    {% include horizontal_list.html collection=site.data.home_cn.footer_entries %}
 </footer>
 {% endif %}

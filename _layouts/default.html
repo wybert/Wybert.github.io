@@ -10,7 +10,11 @@
         <!-- <h1>Xiaokang Fu</h1> -->
         <header>
           {% if site.theme_config.show_navbar == true %}
-            {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+            {% if page.lang == 'zh' %}
+              {% include horizontal_list.html collection=site.data.home_cn.navbar_entries %}
+            {% else %}
+              {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+            {% endif %}
             <div class="dashed"></div>
           {% endif %}
         </header>

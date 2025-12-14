@@ -1,0 +1,41 @@
+project_entries:
+  - title:  可再现与可复制的地理信息科学
+    url: Reproducible-and-Replicable-Geospatial-Science
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png"> 研究和开发可再现与可复制的地理信息科学方法与工具。
+  
+  - title: 环境与灾害管理
+    url: environmental-and-disaster-management
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> 空气污染与城市洪水研究。
+
+  - title: 公共卫生与人类福祉
+    url: public-health-and-human-well-being
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="waterlogging"> Covid-19与公共卫生研究。
+
+  - title: 工具与软件
+    url: tools-and-softwares
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/Screenshot-RR.png" alt="georouting"> 用于大规模地理空间数据分析的开源工具与软件，以及可复制与可再现工具。
+
+old_project_entries:
+  - title: 推测空气质量
+    url: air-study
+    desc: <img src="https://luojiassp.github.io/figs/2022-06-10-23-57-49.png" alt="air study"> 基于社交媒体数据推测空气质量。
+  
+  - title: Georouting
+    url: georouting-test
+    desc: <img src="https://wybert.github.io/georouting/img/georouting.png" alt="georouting logo"> 为Python用户提供的路径规划包，支持大多数路径规划工具，包括OSRM、Google Maps、Bing Maps等，提供统一的API。
+    highlight: 开源工具
+
+  - title: KNIME地理空间分析扩展
+    url: https://github.com/spatial-data-lab/knime-geospatial-extension
+    desc: <img src="https://www.knime.com/sites/default/files/2022-12/geospatial1.png" alt="knime"> 用于处理、分析和可视化地理空间数据的KNIME节点。
+    highlight: 开源工具
+
+  - title: 城市内涝检测
+    url: http://wybert.github.io/showcase/
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/waterlogging.png" alt="waterlogging"> 基于社交媒体图片和文本的城市内涝检测。
+    highlight: 仪表盘
+
+  - title: 哈佛房源地图
+    url: https://wybert.github.io/my_app/harvard_housing_top10_cheap.html
+    desc: <img src="https://raw.githubusercontent.com/wybert/Wybert.github.io/master/images/top10cheapest.png" alt="top10cheap"> 哈佛大学附近（以CGA为中心）最便宜和最近的10处房源地图。
+    highlight: 网页地图
