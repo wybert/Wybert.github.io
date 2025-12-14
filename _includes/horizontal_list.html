@@ -1,7 +1,13 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
+    {% assign active_class = "" %}
+    {% if item.url == page.url %}
+      {% assign active_class = "active" %}
+    {% elsif item.url != "/" and page.url contains item.url %}
+      {% assign active_class = "active" %}
+    {% endif %}
     <li>
-      <a href="{{ item.url }}">
+      <a href="{{ item.url }}" class="{{ active_class }}">
         {{ item.title }}
       </a>
       <!-- &nbsp; -->

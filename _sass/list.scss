@@ -15,6 +15,12 @@ ul.horizontal-list {
     font-weight: normal
   }
 
+  li a.active {
+    font-weight: bold;
+    color: var(--headings);
+    text-decoration: underline;
+  }
+
 }
 
 .card {

@@ -5,16 +5,16 @@ navbar_entries:
   #   url: about
 
   - title: Researches
-    url: researches
+    url: /researches
 
   - title: Publications
-    url: publications
+    url: /publications
 
   - title: Services
-    url: services
+    url: /services
 
   - title: Teaching
-    url: teaching
+    url: /teaching
 
   - title: CV
     url: https://wybert.github.io/Clean_Academic_CV/XiaokangFu-CV.pdf
@@ -25,7 +25,7 @@ navbar_entries:
   #   url: https://wybert.github.io/artwork
 
   - title: Contact
-    url: contact
+    url: /contact
 
 project_entries:
   - title:  Reproducible and Replicable GIScience
