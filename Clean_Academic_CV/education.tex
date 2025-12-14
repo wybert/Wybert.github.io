@@ -1,0 +1,40 @@
+% Add your educational background here!
+
+% NOTE: If you want to remove the "Expected" footnote, you will want to remove:
+% - Directly below: \renewcommand, \setcounter
+% - In the table: \footnotemark in the left column
+% - After the table: \footnotetext, \renewcommand, \setcounter
+
+% Different numbers in "\setcounter{footnote}{0}" use different symbols
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+    % Use custom symbol footnote for "expected"
+    2015-2020 & \textbf{Ph.D.} in Cartography and Geographic Information Engineering, Wuhan University \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "Urban Waterlogging Area Detecting Based on Social Media Using Topic Evolution and Multi-modal Feature Fusion"
+    \item \textbf{Supervisor:} Prof. Yandong Wang
+    \item \textbf{Research Area:} Geospatial information science, Urban flooding, social sensensing and remote sensing 
+\end{itemize} \\
+    2013-2015 & \textbf{M.A.} in Surveying and Mapping Engineering, Wuhan University \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "Detecting Urban Pollution Information Using Sina Weibo"
+    \item \textbf{Supervisor:} Prof. Yandong Wang
+    \item \textbf{Research Area:} Geoinformatics and Geospatial information science
+\end{itemize} \\
+    2009-2013 & \textbf{B.Sc.}, Surveying and Mapping Engineering, Inner Mongolia University of Science and Technology \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "3D Landscape Modeling of Inner Mongolia University of Science and Technology’s Campus Based on Digital Map"
+    \item \textbf{Research Area:} Geospatial information science and 3D modeling
+\end{itemize} 
+% \end{tabularx}
+\end{longtable}
+
+
+% Add text for the custom footnote
+\footnotetext[1]{Expected.}
+
+% Restore the default footnote numbering
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{1}

@@ -1,0 +1,28 @@
+% Add your educational background here!
+
+% NOTE: If you want to remove the "Expected" footnote, you will want to remove:
+% - Directly below: \renewcommand, \setcounter
+% - In the table: \footnotemark in the left column
+% - After the table: \footnotetext, \renewcommand, \setcounter
+
+% Different numbers in "\setcounter{footnote}{0}" use different symbols
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+    % Use custom symbol footnote for "expected"
+    2015-2020 & \textbf{博士}, 制图学与地理信息工程, 武汉大学 \\
+
+    2013-2015 & \textbf{硕士}, 测绘工程, 武汉大学 \\
+
+    2009-2013 & \textbf{学士}, 测绘工程, 内蒙古科技大学
+% \end{tabularx}
+\end{longtable}
+
+
+% Add text for the custom footnote
+\footnotetext[1]{Expected.}
+
+% Restore the default footnote numbering
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{1}
