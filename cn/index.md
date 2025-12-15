@@ -61,14 +61,6 @@ endif %}
 </p>
 <br />
 <a href="https://wybert.github.io/cn/services/">阅读更多...</a>
-<!-- show services -->
-<h2>服务</h2>
-<!-- show my services as ceo of ssp -->
-<p>
-    作为<a href="https://luojiassp.github.io/">空间搜搜人 (SSP)</a> 的执行人。SSP 是一个由来自世界各地的学者组成的非营利科学社区。我们目前的工作主要集中在中文微博数据的情感提取和挖掘。我们也对空间搜索和空间数据挖掘在社交媒体中的应用感兴趣。
-</p>
-<br />
-<a href="https://wybert.github.io/cn/services/">阅读更多...</a>
 
 <!-- add contact -->
 <h2>联系</h2>
