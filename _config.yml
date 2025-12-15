@@ -56,4 +56,12 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
-  # - jekyll-scholar
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  source: ./_bibliography
+  bibliography: publications.bib
+  sort_by: year, month
+  order: descending
+  query: "@*"
