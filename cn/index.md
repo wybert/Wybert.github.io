@@ -1,6 +1,7 @@
 ---
 layout: home_cn
 lang: zh
+permalink: /cn/
 ---
 
 <!-- add google search meta description -->
