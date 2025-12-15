@@ -3,6 +3,8 @@ layout: home_cn
 lang: zh
 ---
 
+<div style="background: blue; color: white; padding: 10px; text-align: center;">DEBUG: Content Start</div>
+
 <!-- add google search meta description -->
 
 <meta
