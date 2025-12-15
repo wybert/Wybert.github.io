@@ -6,6 +6,7 @@ _site
 vendor
 .DS_Store
 Gemfile.lock
+.gemini-clipboard/
 
 # LaTeX auxiliary files
 *.aux

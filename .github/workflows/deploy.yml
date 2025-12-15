@@ -23,6 +23,9 @@ jobs:
       - name: Clean and Update BibTeX
         run: python3 bin/update_bib.py
 
+      - name: Remove Gemfile.lock
+        run: rm -f Gemfile.lock
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
