@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: zh
+title: ""
 ---
 
 <!-- add google search meta description -->
