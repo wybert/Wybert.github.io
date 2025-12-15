@@ -4,7 +4,7 @@ url: https://wybert.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
   Xiaokang Fu is a postdoctoral researcher at the CGA of Harvard University. He is dedicated to advancing sustainable development and human well-being through innovative technologies and interdisciplinary collaboration. His research focuses on geospatial artificialintelligence (GeoAI), disaster management, public health, urban computing, social media and social behavior analysis, digital humanities, and the development of reproducible and scalable computational tools. He is also a musician in his free time.
 
-permalink: /:slug
+# permalink: /:slug
 
 # FIXME: add my logo
 favicon: "./logo.png" # relative path to site's favicon
@@ -21,6 +21,13 @@ twitter:
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:slug
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
