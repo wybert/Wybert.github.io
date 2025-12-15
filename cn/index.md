@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: home_cn
 lang: zh
-title: ""
 ---
 
 <!-- add google search meta description -->
