@@ -147,18 +147,17 @@ html.transition *:after {
 .lang-toggle {
   color: var(--text);
   background-color: transparent;
-  padding: 4px 8px;
+  padding: 4px;
   cursor: pointer;
-  border: 2px var(--text) solid;
-  border-radius: 4px;
+  border: 2px transparent solid;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1em;
+  line-height: 24px;
 }
 
 .lang-toggle:hover {
   color: var(--links);
-  border-color: var(--links);
 }
 
 .theme-toggle {
