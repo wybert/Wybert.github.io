@@ -27,9 +27,6 @@ navbar_entries:
   - title: Contact
     url: /contact
 
-  - title: 中文
-    url: /cn/
-
 project_entries:
   - title:  Reproducible and Replicable GIScience
     url: Reproducible-and-Replicable-Geospatial-Science

@@ -21,9 +21,16 @@
 
 
         {{ content }}
-        {% if site.theme_config.appearance_toggle %}
-          {% include toggle_theme_button.html %}
-        {% endif %}
+        <div class="toggle-container">
+          {% if page.lang == 'zh' %}
+            <a href="/" class="lang-toggle" title="English">EN</a>
+          {% else %}
+            <a href="/cn/" class="lang-toggle" title="中文">中</a>
+          {% endif %}
+          {% if site.theme_config.appearance_toggle %}
+            {% include toggle_theme_button.html %}
+          {% endif %}
+        </div>
         <div class="credits">
           {%- if site.theme_config.show_copyright == true -%}
           &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}

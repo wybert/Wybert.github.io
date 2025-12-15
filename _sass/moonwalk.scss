@@ -133,15 +133,39 @@ html.transition *:after {
     transition-delay: 0 !important;
 }
 
+.toggle-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 1em;
+  z-index: 100;
+}
+
+.lang-toggle {
+  color: var(--text);
+  background-color: transparent;
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 2px var(--text) solid;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.lang-toggle:hover {
+  color: var(--links);
+  border-color: var(--links);
+}
+
 .theme-toggle {
   color: var(--text);
   background-color: transparent;
   padding: 4px;
   cursor: pointer;
-  margin: 1em;
-  position: fixed;
-  right: 0;
-  top: 0;
   border: 2px transparent solid;
   outline: none;
 }

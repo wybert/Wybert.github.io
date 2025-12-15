@@ -27,9 +27,6 @@ navbar_entries:
   - title: 联系
     url: /cn/contact
 
-  - title: English
-    url: /
-
 project_entries:
   - title:  可再现与可复制的地理信息科学
     url: Reproducible-and-Replicable-Geospatial-Science
