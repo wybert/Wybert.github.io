@@ -1,0 +1,41 @@
+name: Deploy Jekyll with Scholar
+
+on:
+  push:
+    branches:
+      - master  # 或者 main，取决于您的默认分支名
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Clean and Update BibTeX
+        run: python3 bin/update_bib.py
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3' # 使用较新的稳定版
+          bundler-cache: true # 自动缓存 gems
+
+      - name: Build Jekyll Site
+        run: JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages  # 部署到 gh-pages 分支
+          force_orphan: true # 保持历史记录干净，可选
