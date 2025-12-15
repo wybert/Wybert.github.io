@@ -1,0 +1,251 @@
+% ========================================================
+% 付小康简历 - 中文版 (合并版)
+% 基于 Matthew DeVerna 的模板 (www.matthewdeverna.com)
+% ========================================================
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Citation style
+\usepackage[
+    backend=biber,
+    maxnames=20,
+    style=nature,
+    sorting=ydnt,
+    defernumbers=true,
+]{biblatex}
+\DeclareFieldFormat[article]{volume}{#1}
+\addbibresource{ref.bib}
+
+% Packages
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{soul}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{xeCJK}
+\setCJKmainfont{STSong}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Custom colors
+\definecolor{firebrick}{HTML}{b22222}
+\definecolor{darkslategrey}{HTML}{2f4f4f}
+\definecolor{cornflowerblue}{HTML}{6495ed}
+\definecolor{mediumslateblue}{HTML}{7b68ee}
+
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=cornflowerblue,
+    urlcolor=cornflowerblue,
+    anchorcolor=cornflowerblue,
+    citecolor=cornflowerblue,
+    pdftitle={付小康简历},
+    pdfauthor={付小康},
+    bookmarksopen=true,
+}
+
+\newcommand{\mytitle}[4]{
+  \begin{center}
+    \Large\textbf{#1}\normalsize \\
+    \href{mailto:#2}{#2} \\
+    \href{https://#3}{#3} \\
+    #4
+  \end{center}
+}
+
+\begin{document}
+
+% ==================== Header ====================
+\definecolor{emailcolor}{HTML}{666666}
+\definecolor{webcolor}{HTML}{666666}
+\definecolor{githubcolor}{HTML}{333333}
+\definecolor{starcolor}{HTML}{F5A623}
+\definecolor{googlecolor}{HTML}{4285F4}
+\begin{center}
+    \LARGE\textbf{付小康}\normalsize \\[0.4em]
+    {\color{emailcolor}\faIcon{envelope}}~\href{mailto:fxk123@gmail.com}{fxk123@gmail.com} \quad
+    {\color{webcolor}\faIcon{globe}}~\href{https://wybert.github.io}{wybert.github.io} \\[0.3em]
+    {\color{githubcolor}\faIcon{github}}~\href{https://github.com/wybert}{GitHub} \textbf{250} {\color{starcolor}\faIcon{star}} \quad
+    {\color{googlecolor}\faIcon{google}}~\href{https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ}{Google Scholar} \textbf{1020} citations
+\end{center}
+\vspace{0.5em}
+
+\RaggedRight
+
+%% ==================== 研究兴趣 ====================
+\section*{研究兴趣}
+
+我的研究致力于通过创新技术和跨学科合作, 推动可持续发展. 我的研究兴趣包括地理信息科学 (GIS), 地理空间人工智能 (GeoAI), 环境管理, 灾害响应, 公共卫生, 城市计算, 社会行为分析, 以及开发可再现和可扩展的计算工具.
+
+%% ==================== 教育经历 ====================
+\pdfbookmark[1]{Education}{}
+\section*{教育经历}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+    2015-2020 & \textbf{博士}, 制图学与地理信息工程, 武汉大学 \\
+    2013-2015 & \textbf{硕士}, 测绘工程, 武汉大学 \\
+    2009-2013 & \textbf{学士}, 测绘工程, 内蒙古科技大学
+\end{longtable}
+
+\footnotetext[1]{Expected.}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{1}
+
+%% ==================== 工作经历 ====================
+\pdfbookmark[1]{Research Experience}{exp_research}
+\section*{工作经历}
+\label{exp_research}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+2023-现在 & 博士后, \href{https://gis.harvard.edu/}{地理分析中心}, 哈佛大学, (合作导师: \href{https://gis.harvard.edu/people/s-v-subramanian}{S. V. Subramanian博士}) \\
+
+2021-2023 & 访问研究员, \href{https://gis.harvard.edu/}{地理分析中心}, 哈佛大学, (合作导师: \href{https://gis.harvard.edu/people/s-v-subramanian}{S. V. Subramanian博士}) \\
+
+2020-2023 & 博士后, \href{http://www.lmars.whu.edu.cn/en/}{测绘遥感信息工程国家重点实验室}, 武汉大学, (合作导师: \href{https://en.whu.edu.cn/info/1073/1568.htm}{龚健雅博士}) \\
+
+\end{longtable}
+
+%% ==================== 发表记录 ====================
+\pdfbookmark[1]{Publications}{pubs}
+\section*{发表记录}
+\label{pubs}
+
+\vspace{-.75em}
+\small
+\faIcon{google}~\href{https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ}{Google Scholar}\\
+$\dagger \rightarrow$ Equal contribution
+\normalsize
+
+\subsection*{筛选论文}
+\label{select-paper}
+\newrefcontext[labelprefix=S]
+\nocite{*}
+\printbibliography[type=article, heading=none, resetnumbers=true, keyword=S]
+
+\pdfbookmark[2]{Journal Articles}{journal-article}
+\subsection*{其他论文}
+\label{journal-article}
+\newrefcontext[labelprefix=J]
+\nocite{*}
+\printbibliography[type=article, heading=none, resetnumbers=true, keyword=J]
+
+\pdfbookmark[2]{Working papers}{working-papers}
+\subsection*{待发表论文}
+\label{working-papers}
+\newrefcontext[labelprefix=W]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=R]
+
+%% ==================== 主持的项目 ====================
+\section*{主持的项目}
+
+\begin{enumerate}
+    \item 2024. Host: Developing Workbenches for Spatial Data Science.The I/UCRC for Spatiotemporal Thinking, Computing and Applications (NSF USA).
+    \item 2021. Host: Regional Health Index Calculation Model Based on Multi-Source Big Data. State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.
+\end{enumerate}
+
+%% ==================== 开发的软件和工具 ====================
+\pdfbookmark[1]{Tools \& Software}{tools}
+\section*{开发的软件和工具}
+\label{tools}
+
+\subsection*{\textbf{开源可再现与可复制的地理信息科学}}
+\begin{itemize}
+    \item[] \textbf{Geospatial Analytics Extension for KNIME}: 用于可再现与可复制地理信息科学的可视化编程工具,包括地理空间数据的读取, 写入, 处理, 分析, 建模和可视化.（\href{https://github.com/spatial-data-lab/knime-geospatial-extension}{GitHub} | \href{https://sdl.gis.harvard.edu/sites/projects.iq.harvard.edu/files/agenda_2024_3_1.pdf}{2024时空数据科学研讨会报告}）
+
+    \item[] \textbf{Dataverse Extension for KNIME}: 与Dataverse平台交互的可视化编程工具, 包括上传至Dataverse, 从Dataverse下载, 搜索和读取数据.（\href{https://github.com/spatial-data-lab/knime-dataverse-extension}{GitHub} | \href{https://projects.iq.harvard.edu/dcm2022/agenda}{2022 Dataverse社区会议报告}和\href{https://gis.harvard.edu/event/integrating-cloud-computing-knime-platform-monitoring-deforestation}{2023哈佛研讨会}）
+
+    \item[] \textbf{Google Earth Engine Extension for KNIME}: 与Google Earth Engine交互的可视化编程工具.（\href{https://github.com/spatial-data-lab/knime-gee-extension}{GitHub} | \href{https://gis.harvard.edu/event/integrating-cloud-computing-knime-platform-monitoring-deforestation}{2024 ABCD-GIS/地理学系列讲座报告}）
+\end{itemize}
+
+\subsection*{开源地理空间数据科学}
+
+\begin{itemize}
+    \item[] \textbf{Georouting}: 为Python用户提供的路径计算工具, 支持OSRM, 谷歌地图, 必应地图等多种路径规划工具, 并提供统一的API接口.（\href{https://pypi.org/project/georouting/}{PyPi} | \href{https://github.com/wybert/georouting}{GitHub} | \href{https://www.aag.org/wp-content/uploads/2023/03/AAG-2023-PDF-program.pdf}{2023年美国地理学年会提及}）
+
+    \item[] \textbf{Geopandas}: 面向地理数据处理的Python工具.（贡献1个\href{https://github.com/geopandas/geopandas/pull/2658}{PR} | \href{https://github.com/geopandas/geopandas}{GitHub}）
+\end{itemize}
+
+\subsection*{地理空间大数据}
+
+\begin{itemize}
+    \item[] \textbf{\href{https://gis.harvard.edu/rapidroute}{RapidRoute}}: 开源的旅行时间估算系统.
+
+    \item[] \textbf{\href{https://gis.harvard.edu/billion-object-platform-v20}{Billion Object Platform}}: 实时处理数十亿条记录的地理空间分析平台.（\href{https://www.iq.harvard.edu/news/cga-geospatial-infrastructure-enhancement}{2024 IQSS新闻通讯报道}）
+\end{itemize}
+
+%% ==================== 学术交流和会议 ====================
+\pdfbookmark[1]{Presentations}{presentations}
+\section*{学术交流和会议}
+\label{presentations}
+
+\vspace{-.75em}
+\small
+$\dagger \rightarrow$ Equal contribution
+\normalsize
+
+\pdfbookmark[2]{Talks}{talks}
+\subsection*{口头报告}
+\label{talks}
+\newrefcontext[labelprefix=T]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=T]
+
+\pdfbookmark[2]{Posters}{posters}
+\subsection*{海报}
+\label{posters}
+\newrefcontext[labelprefix=P]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=P]
+
+%% ==================== 教学 ====================
+\pdfbookmark[1]{Teaching}{teaching}
+\section*{教学}
+\label{teaching}
+
+\subsection*{哈佛大学}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2024 & 讲师及组织者, 研讨会: 面向时空数据科学的KNIME Business Hub.（\href{https://gis.harvard.edu/event/workshop-web-based-workflows-reproducible-and-shareable-spatiotemporal-data-analysis}{Link}）   \\
+    2023 & 讲师, 哈佛大学时空数据科学暑期工作坊.（\href{https://sdl.gis.harvard.edu/event/summer-workshop-spatiotemporal-innovation-0}{Link}） \\
+    2023 & 报告人, 研讨会: 无代码可视化编程的时空数据分析.（\href{https://gis.harvard.edu/event/spatiotemporal-data-analysis-codeless-visual-programming}{Link}） \\
+
+\end{longtable}
+
+%% ==================== 学术服务 ====================
+\pdfbookmark[1]{Academic Service}{service}
+\section*{学术服务}
+\label{service}
+
+\subsection*{委员和会员}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+ 2023-至今 & 地理信息科学大学联盟（UCGIS）传播委员会委员 \\
+    2023-至今 & 美国地理学家协会（AAG）会员 \\
+    2024 & 电气与电子工程师协会（IEEE）会员 \\
+
+\end{longtable}
+
+\subsection*{Journal Reviewer}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2025 & International Journal of Applied Earth Observation and Geoinformation, Ecological Indicators\\
+    2024 & Land, Sustainability, International Journal of Applied Earth Observation and Geoinformation \\
+
+\end{longtable}
+
+%% ==================== Footer ====================
+\centering
+\rule{0.25\linewidth}{0.4pt}\\
+\medskip
+最近更新： \today
+
+\end{document}

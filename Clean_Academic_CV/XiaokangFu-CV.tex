@@ -1,0 +1,291 @@
+% ========================================================
+% Xiaokang Fu's CV - English Version (Merged)
+% Based on template by Matthew DeVerna (www.matthewdeverna.com)
+% ========================================================
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+
+% Citation style
+\usepackage[
+    backend=biber,
+    maxnames=20,
+    style=nature,
+    sorting=ydnt,
+    defernumbers=true,
+]{biblatex}
+\DeclareFieldFormat[article]{volume}{#1}
+\addbibresource{ref.bib}
+
+% Packages
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{soul}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Custom colors
+\definecolor{firebrick}{HTML}{b22222}
+\definecolor{darkslategrey}{HTML}{2f4f4f}
+\definecolor{cornflowerblue}{HTML}{6495ed}
+\definecolor{mediumslateblue}{HTML}{7b68ee}
+
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=cornflowerblue,
+    urlcolor=cornflowerblue,
+    anchorcolor=cornflowerblue,
+    citecolor=cornflowerblue,
+    pdftitle={Xiaokang Fu CV},
+    pdfauthor={Xiaokang Fu},
+    bookmarksopen=true,
+}
+
+\begin{document}
+
+% ==================== Header ====================
+\definecolor{emailcolor}{HTML}{666666}
+\definecolor{webcolor}{HTML}{666666}
+\definecolor{githubcolor}{HTML}{333333}
+\definecolor{starcolor}{HTML}{F5A623}
+\definecolor{googlecolor}{HTML}{4285F4}
+\begin{center}
+    \LARGE\textbf{Xiaokang Fu}\normalsize \\[0.4em]
+    {\color{emailcolor}\faIcon{envelope}}~\href{mailto:fxk123@gmail.com}{fxk123@gmail.com} \quad
+    {\color{webcolor}\faIcon{globe}}~\href{https://wybert.github.io}{wybert.github.io} \\[0.3em]
+    {\color{githubcolor}\faIcon{github}}~\href{https://github.com/wybert}{GitHub} \textbf{250} {\color{starcolor}\faIcon{star}} \quad
+    {\color{googlecolor}\faIcon{google}}~\href{https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ}{Google Scholar} \textbf{1020} citations
+\end{center}
+\vspace{0.5em}
+
+\RaggedRight
+
+%% ==================== Research Interest ====================
+\section*{Research Interest}
+
+My research is dedicated to advancing sustainable development through innovative technologies and interdisciplinary collaboration. My interests including geographic information science (GIS), geospatial artificial intelligence (GeoAI), environmental management, disaster response, public health, urban computing and sustainability, social behavior analysis, digital twins, and the development of reproducible and scalable computational tools.
+
+%% ==================== Education ====================
+\pdfbookmark[1]{Education}{}
+\section*{Education}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+    2015-2020 & \textbf{Ph.D.} in Cartography and Geographic Information Engineering, Wuhan University \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "Urban Waterlogging Area Detecting Based on Social Media Using Topic Evolution and Multi-modal Feature Fusion"
+    \item \textbf{Supervisor:} Prof. Yandong Wang
+    \item \textbf{Research Area:} Geospatial information science, Urban flooding, social sensensing and remote sensing
+\end{itemize} \\
+    2013-2015 & \textbf{M.A.} in Surveying and Mapping Engineering, Wuhan University \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "Detecting Urban Pollution Information Using Sina Weibo"
+    \item \textbf{Supervisor:} Prof. Yandong Wang
+    \item \textbf{Research Area:} Geoinformatics and Geospatial information science
+\end{itemize} \\
+    2009-2013 & \textbf{B.Sc.}, Surveying and Mapping Engineering, Inner Mongolia University of Science and Technology \\
+& \begin{itemize}
+    \item \textbf{Thesis:} "3D Landscape Modeling of Inner Mongolia University of Science and Technology's Campus Based on Digital Map"
+    \item \textbf{Research Area:} Geospatial information science and 3D modeling
+\end{itemize}
+\end{longtable}
+
+\footnotetext[1]{Expected.}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{1}
+
+%% ==================== Research Experience ====================
+\pdfbookmark[1]{Research Experience}{exp_research}
+\section*{Research Experience}
+\label{exp_research}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+2023-now & Postdoc, \href{https://gis.harvard.edu/}{Center for Geographic Analysis}, Harvard University, (Advisor: \href{https://gis.harvard.edu/people/s-v-subramanian}{Dr. S. V. Subramanian}) \\
+
+2024-now & Co-founder and researcher, \href{https://carbon-infinity.vercel.app/}{Carbon Infinity}, (We use satellites to monitor economic activity) \\
+
+2021-2023 & Visiting Fellow, \href{https://gis.harvard.edu/}{Center for Geographic Analysis}, Harvard University, (Advisor: \href{https://gis.harvard.edu/people/s-v-subramanian}{Dr. S. V. Subramanian}) \\
+
+2020-2023 & Postdoc, \href{http://www.lmars.whu.edu.cn/en/}{State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing}, Wuhan University, (Advisor: \href{https://en.whu.edu.cn/info/1073/1568.htm}{Dr. Jianya Gong}) \\
+
+\end{longtable}
+
+%% ==================== Publications ====================
+\pdfbookmark[1]{Publications}{pubs}
+\section*{Publications}
+\label{pubs}
+
+\vspace{-.75em}
+\small
+\faIcon{google}~\href{https://scholar.google.com.hk/citations?user=H9RAbHIAAAAJ}{Google Scholar}\\
+$\dagger \rightarrow$ Equal contribution
+\normalsize
+
+\subsection*{Selected Papers}
+\label{select-paper}
+\newrefcontext[labelprefix=S]
+\nocite{*}
+\printbibliography[type=article, heading=none, resetnumbers=true, keyword=S]
+
+\pdfbookmark[2]{Journal Articles}{journal-article}
+\subsection*{Journal Articles}
+\label{journal-article}
+\newrefcontext[labelprefix=J]
+\nocite{*}
+\printbibliography[type=article, heading=none, resetnumbers=true, keyword=J]
+
+\subsection*{Books and Chapters}
+\label{books}
+\newrefcontext[labelprefix=B]
+\printbibliography[type=book,heading=none,resetnumbers=true,keyword=B]
+
+\pdfbookmark[2]{Working papers}{working-papers}
+\subsection*{Working papers}
+\label{working-papers}
+\newrefcontext[labelprefix=W]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=R]
+
+%% ==================== Hosted Projects ====================
+\section*{Hosted Projects}
+
+\begin{enumerate}
+    \item 2024. Host: Developing Workbenches for Spatial Data Science.The I/UCRC for Spatiotemporal Thinking, Computing and Applications (NSF USA).
+    \item 2021. Host: Regional Health Index Calculation Model Based on Multi-Source Big Data. State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.
+\end{enumerate}
+
+%% ==================== Tools & Software ====================
+\pdfbookmark[1]{Tools \& Software}{tools}
+\section*{Tools \& Software}
+\label{tools}
+
+\subsection*{\textbf{Open Source Reproducible and Replicable GIScience}}
+\begin{itemize}
+    \item[] \textbf{Geospatial Analytics Extension for KNIME}: Visual Programming Tools for Reproducible and Replicable GIScience, including read, write, process, analysis, modeling, and visualization geospatial data. (\href{https://github.com/spatial-data-lab/knime-geospatial-extension}{GitHub} | \href{https://sdl.gis.harvard.edu/sites/projects.iq.harvard.edu/files/agenda_2024_3_1.pdf}{Talk in The Symposium on Spatiotemporal Data Science, 2024}
+
+    \item[] \textbf{Dataverse Extension for KNIME}: Visual Programming Tools for interacting with Dataverse platform, including upload, download from or to Dataverse; search, read data from Dataverse. (\href{https://github.com/spatial-data-lab/knime-dataverse-extension}{GitHub} | \href{https://projects.iq.harvard.edu/dcm2022/agenda}{Talk in Dataverse Community Meeting, 2022} and \href{https://gis.harvard.edu/event/integrating-cloud-computing-knime-platform-monitoring-deforestation}{Seminar in Harvard, 2023})
+
+    \item[] \textbf{Google Earth Engine Extension for KNIME}: Visual Programming Tools for interacting Google Earth Engine Extension. (\href{https://github.com/spatial-data-lab/knime-gee-extension}{GitHub} | \href{https://gis.harvard.edu/event/integrating-cloud-computing-knime-platform-monitoring-deforestation}{Talk in ABCD-GIS / Geography Colloquium, 2024})
+\end{itemize}
+
+\subsection*{Open Source Geospatial Data Science}
+
+\begin{itemize}
+    \item[] \textbf{Georouting}. Routing calculation for Python users, supporting most of the routing tools, including OSRM, Google Maps, Bing Maps, etc. with a unified API. (\href{https://pypi.org/project/georouting/}{PyPi} | \href{https://github.com/wybert/georouting}{GitHub} | \href{https://www.aag.org/wp-content/uploads/2023/03/AAG-2023-PDF-program.pdf}{Mentioned in AAG, 2023})
+
+    \item[] \textbf{Geopandas}. Python tools for geographic data. (Contribute 1  \href{https://github.com/geopandas/geopandas/pull/2658}{Pr} | \href{https://github.com/geopandas/geopandas}{GitHub})
+\end{itemize}
+
+\subsection*{Geospatial Big Data}
+
+\begin{itemize}
+    \item[] \textbf{\href{https://gis.harvard.edu/rapidroute}{RapidRoute}}. Rapid Route is an open-source system developed for estimating travel times.
+
+    \item[] \textbf{\href{https://gis.harvard.edu/billion-object-platform-v20}{Billion Object Platform}}. Real-time geospatial analsyis with billions records. (\href{https://www.iq.harvard.edu/news/cga-geospatial-infrastructure-enhancement}{Report in IQSS News Letter, 2024})
+\end{itemize}
+
+%% ==================== Skills ====================
+\pdfbookmark[1]{Skills}{skills}
+\section*{Skills}
+\label{skills}
+
+\begin{itemize}
+    \item Proficient in Python, Julia, SQL, R, and JavaScript, with expertise in PostgreSQL (PostGIS), DuckDB, Heavy.AI, and tools like Scikit-learn, PyTorch for data science, machine learning, and AI development. Skilled in QGIS, ArcGIS, GEE, and KNIME software.
+    \item  Skilled in data mining, modeling, network analysis, statistics, and data crawling.
+    \item Skilled in Linux server management, HPC workflows, and containerization technologies like Docker, Kubernetes, and OpenShift. Experienced in AI system and AI agents development, and multi-GPU AI training.
+    \item  A strong team player with excellent communication and collaboration skills, I am well-equipped to work with people from different backgrounds.
+\end{itemize}
+
+%% ==================== Presentations ====================
+\pdfbookmark[1]{Presentations}{presentations}
+\section*{Presentations}
+\label{presentations}
+
+\vspace{-.75em}
+\small
+$\dagger \rightarrow$ Equal contribution
+\normalsize
+
+\pdfbookmark[2]{Talks}{talks}
+\subsection*{Talks}
+\label{talks}
+\newrefcontext[labelprefix=T]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=T]
+
+\pdfbookmark[2]{Posters}{posters}
+\subsection*{Posters}
+\label{posters}
+\newrefcontext[labelprefix=P]
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=P]
+
+%% ==================== Teaching ====================
+\pdfbookmark[1]{Teaching}{teaching}
+\section*{Teaching}
+\label{teaching}
+
+\subsection*{Harvard}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2024 & Instructor and organizer, Workshop: KNIME Business Hub for Spatiotemporal Data Science (\href{https://gis.harvard.edu/event/workshop-web-based-workflows-reproducible-and-shareable-spatiotemporal-data-analysis}{Link})   \\
+    2023 & Lecturer, The Summer Workshop on Spatiotemporal Data Science at Harvard (\href{https://sdl.gis.harvard.edu/event/summer-workshop-spatiotemporal-innovation-0}{Link}) \\
+    2023 & Speaker, Seminar: Spatiotemporal Data Analysis With Codeless Visual Programming (\href{https://gis.harvard.edu/event/spatiotemporal-data-analysis-codeless-visual-programming}{Link}) \\
+
+\end{longtable}
+
+%% ==================== Academic Service ====================
+\pdfbookmark[1]{Academic Service}{service}
+\section*{Academic Service}
+\label{service}
+
+\subsection*{Professional Memberships}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2023-now & Communications Committee Member, University Consortium for Geographic  Information Science (UCGIS) \\
+    2023–now 	& Member, American Association of Geographers (AAG) \\
+    2024   & Member, the Institute of Electrical and Electronics Engineers (IEEE)
+
+\end{longtable}
+
+\subsection*{Journal Reviewer}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2025 & International Journal of Applied Earth Observation and Geoinformation, Ecological Indicators\\
+    2024 & Land, Sustainability, International Journal of Applied Earth Observation and Geoinformation \\
+
+\end{longtable}
+
+\subsection*{Journal Guest Editor}
+
+\begin{longtable}[l]{@{}p{.125\textwidth} p{0.875\textwidth}}
+
+    2025 & Applied Sciences \\
+
+\end{longtable}
+
+%% ==================== Hobbies ====================
+\pdfbookmark[1]{Hobbies}{hobbies}
+\section*{Hobbies}
+\label{hobbies}
+
+\begin{itemize}
+    \item I like playing Frisbee, badminton and dancing (Harvard AADT dancer, see \href{https://www.youtube.com/watch?v=7oGz4unYZqQ}{Youtube video})
+    \item I am a singer, guitarist, composer and independent musician, see my work at \href{https://music.163.com/#/artist?id=56855554}{NetEaseCloud Music}
+\end{itemize}
+
+%% ==================== Footer ====================
+\centering
+\rule{0.25\linewidth}{0.4pt}\\
+\medskip
+Last updated: \today
+
+\end{document}

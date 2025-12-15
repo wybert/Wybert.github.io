@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Update and clean the bibliography file
+python3 bin/update_bib.py
+
+# Then start the Jekyll server
+bundle exec jekyll serve --incremental
+
