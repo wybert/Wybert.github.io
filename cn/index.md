@@ -8,7 +8,7 @@ permalink: /cn/
 
 <meta
     name="description"
-    content="付小康的个人网站。付小康曾是哈佛大学地理分析中心（CGA）的访问学者和博士后研究员，曾是武汉大学测绘遥感信息工程国家重点实验室的博士后研究员。他也是空间搜搜人（Spatial Search People）的执行人。他的研究兴趣包括地统计学与地理信息科学（GIS）、城市计算、社交媒体数据挖掘和应急响应。"
+    content="付小康的个人网站。付小康是武汉大学信息管理学院的副研究员。他毕业于武汉大学测绘遥感信息工程国家重点实验室 (LIESMARS)，随后在哈佛大学地理分析中心 (CGA) 从事博士后研究。他的研究致力于通过 GeoAI、AI for Science 和社会感知技术，推动城市韧性、公共卫生和可持续发展。"
 />
 
 <!-- <h1>{{ site.title }}</h1> -->
@@ -63,20 +63,9 @@ endif %}
 <a href="https://wybert.github.io/cn/services/">阅读更多...</a>
 
 <h2>联系</h2>
-<div style="text-align: center">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.2563033930454!2d-71.10658798412584!3d42.36561097918678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a0d7c2d55b%3A0x2326d420b7119eb0!2sCambridge%2C%20MA%2C%20USA!5e0!3m2!1sen!2sus!4v1645481638724!5m2!1sen!2sus"
-        width="100%"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-    ></iframe>
-</div>
-<div style="padding-top: 10px; text-align: center; font-weight: bold">
-    <a href="https://goo.gl/maps/Ur2N3ywmVzcBgJc27">1737 Cambridge Street, Cambridge MA</a>
-    <br />
-    <a href="mailto:fxk123@gmail.com"><i class="fa fa-envelope"></i> fxk123@gmail.com</a>
+<div style="text-align: center;">
+    <p><i class="fa fa-envelope"></i> <a href="mailto:fxk123@gmail.com">fxk123@gmail.com</a></p>
+    <p style="font-size: 1.2em;"><i class="fa fa-map-marker"></i> 中国 武汉 珞珈山</p>
 </div>
 
 {% if site.theme_config.show_footer == true %}

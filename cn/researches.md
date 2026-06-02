@@ -7,7 +7,7 @@ lang: zh
 
 <meta
     name="description"
-    content="我的研究兴趣包括地统计学与地理信息科学（GIS）、城市计算、社交媒体数据挖掘和应急响应。"
+    content="我的研究致力于通过 GeoAI、AI for Science 和社会感知技术，推动城市韧性、公共卫生和可持续发展。"
 />
 
 <h1>我的研究</h1>

@@ -12,10 +12,9 @@ title: Services
 
 <!-- ![The above image shows the weibo data desentiy from 2021-4-1 to 2022-4-31.](https://luojiassp.github.io/images/weibo_count_1year.png) -->
 
-- **Aug. 2023 - present. UCGIS Communications Committee Member.** I am a [Communications Committee Member](https://www.ucgis.org/committees#Communications) at the [University Consortium for Geographic Information Science](https://www.ucgis.org/) (UCGIS), a non-profit that fosters GIScience communities for research, education, and policy initiatives in higher education and allied institutions. Serving as a central hub for the US academic GIS community, we also have global partnerships. The Communication Committee, where I serve, facilitates consistent communication between the UCGIS Board, Council, affiliated members, and external entities, utilizing platforms like our website, webinars, and social media.
+- **Aug. 2023 - present. UCGIS Communications Vice Chair.** I am a [Communications Committee Vice Chair](https://www.ucgis.org/committees#Communications) at the [University Consortium for Geographic Information Science](https://www.ucgis.org/) (UCGIS), a non-profit that fosters GIScience communities for research, education, and policy initiatives in higher education and allied institutions. Serving as a central hub for the US academic GIS community, we also have global partnerships. The Communication Committee, where I serve, facilitates consistent communication between the UCGIS Board, Council, affiliated members, and external entities, utilizing platforms like our website, webinars, and social media.
 
 - **2023 – present. Member, American Association of Geographers (AAG).**
-
 
 - **2024 - present. Member, the Institute of Electrical and Electronics Engineers (IEEE)**
 
